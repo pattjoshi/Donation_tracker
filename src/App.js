@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const App = () => {
   return (
     <>
-      <h1>Hello from app</h1>
+      <h1> from app</h1>
     </>
   );
 };
