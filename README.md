@@ -22,6 +22,7 @@ git add *
 git commit -m "some init msg"
 
 ```
+ [Blueprint](https://docs.google.com/document/d/1x9FjEdgvPDhbhvm1lD91CMtWLddHzpgZyd4Pt7WTt-s/edit#)
  [I Learn from Hear]( https://www.youtube.com/watch?v=ym3aaodVQIU&t=416s)
 
  🙏 If you find this repo helpful then don't forget to give a star ❇️ to this repository. :)
