@@ -16,7 +16,7 @@ const Header = () => {
           </NavLink>
 
           <i
-            class="fa-solid fa-user-plus text-light "
+            className="fa-solid fa-user-plus text-light "
             style={{ fontSize: 25, cursor: "pointer" }}
           ></i>
         </Container>

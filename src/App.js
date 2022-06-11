@@ -12,7 +12,7 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Creator />} />
-        <Route path="/donate" element={<DonationDetels />} />
+        <Route path="/donate/:id" element={<DonationDetels />} />
       </Routes>
     </>
   );
