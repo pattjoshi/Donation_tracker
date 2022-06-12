@@ -62,6 +62,14 @@
   top: calc(var(--avatar-size) / 4); /* 25% of parent */
 }
 
+/* .card_details {
+  background-color: coral;
+  width: 150px;
+  height: 100px;
+  border: 1px solid black;
+  overflow: scroll;
+} */
+
 @media (max-width: 772px) {
   .iteamsdetails {
     flex-direction: column;

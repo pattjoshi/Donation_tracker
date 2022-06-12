@@ -4,8 +4,9 @@ import CreatorData from "./CreatorData";
 import "./style.css";
 import { NavLink } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { DONAT } from "../redux/action/action";
+import { ADD } from "../redux/action/action";
 const Creator = () => {
+  //
   const [data, setData] = useState(CreatorData);
   //console.log(data);
 
@@ -13,7 +14,7 @@ const Creator = () => {
 
   const send = (e) => {
     //console.log(e);
-    dispatch(DONAT(e));
+    dispatch(ADD(e));
   };
   return (
     <div className="container mt-3">
@@ -43,6 +44,17 @@ const Creator = () => {
                   <Card.Title>{userName}</Card.Title>
                   <Card.Text>{profession}</Card.Text>
                 </Card.Body>
+                <i
+                  className="fa-solid fa-heart text-danger mb-2"
+                  title="Add to Favourite"
+                  onClick={() => send(element)}
+                  style={{
+                    fontSize: 25,
+                    cursor: "pointer",
+
+                    marginLeft: "auto",
+                  }}
+                ></i>
               </Card>
             </>
           );
